@@ -1,0 +1,15 @@
+{
+  "name": "paper-trader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Paper-trading day-trading simulator with pluggable bots (incl. Grok via a server-side xAI proxy). Simulation only - no brokerage, no real orders.",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "build:standalone": "node tools/build-standalone.mjs"
+  }
+}
